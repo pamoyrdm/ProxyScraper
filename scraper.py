@@ -32,7 +32,7 @@ def get_orders():
         print("\033[1;33m╔═╗╦═╗╔═╗═╗ ╦╦ ╦  ╔═╗╔═╗╦═╗╔═╗╔═╗╔═╗╦═╗")
         print("\033[1;33m╠═╝╠╦╝║ ║╔╩╦╝╚╦╝  ╚═╗║  ╠╦╝╠═╣╠═╝║╣ ╠╦╝")
         print("\033[1;33m╩  ╩╚═╚═╝╩ ╚═ ╩   ╚═╝╚═╝╩╚═╩ ╩╩  ╚═╝╩╚═")
-        errorExit("Usage: python scraper.py <output.txt> [-t threads] [-l yourlist] [-s sort]\nExamples:\n🌟Socks4\n- python2 scraper.py proxies_socks4.txt -t 50 -l socks4.txt\n🌟Socks5\n- python2 scraper.py proxies_socks5.txt -t 50 -l socks5.txt\n🌟HTTP\n- python2 scraper.py proxies_http.txt -t 50 -l http.txt")
+        errorExit("Usage: python scraper.py <output.txt> [-t threads] [-l yourlist] [-s sort]\nExamples:\n🌟Socks4\n- python scraper.py proxies_socks4.txt -t 50 -l socks4.txt\n🌟Socks5\n- python scraper.py proxies_socks5.txt -t 50 -l socks5.txt\n🌟HTTP\n- python scraper.py proxies_http.txt -t 50 -l http.txt")
     
     name = sys.argv[1]
     try:
